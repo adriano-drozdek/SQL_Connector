@@ -1,0 +1,13 @@
+1:/:fazer download mysql java connector/j
+2:/:descompactar e utilizar mysql-connector-java=x.x.xx.jar
+3:/:criar uma pasta ex: java-libs dentro dela criar outra pasta jdbc-connectors, colocar o arquivo da opção 2 dentro dela
+4:/:no eclipse va em Window/Preferences/java/Build Path/User libraries/New/MySQLConnector seleciona essa pasta e clica em Add External JARs... e adiciona a pasta criada na opção 3 e abrir dar Apply and Close
+5:/:quando for puxar o projeto do git (File/New/Java Project procura o arquivo e antes de dar finish vai em Next/Libraries/ selecione o projeto/ Add Library/User Library/Next/MySQLConnector/finish/finish/Don't Create module.
+6:/:criar db.properties
+user=root
+password=2720
+dburl=jdbc:mysql://localhost:3306/coursejdbc
+userSSL=false
+7:/:DbException exceção para acesso a dados 
+8:/:DB para conectar e desconectar do banco
+9:/:Program para ver se está conectando com o banco
